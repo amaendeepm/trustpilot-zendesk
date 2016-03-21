@@ -1,0 +1,28 @@
+{
+  "name": "Reply-to-Review",
+  "author": {
+    "name": "Amandeep",
+    "email": "amandeep.midha@gmail.com",
+    "url": "http://amandeepmidha.zendesk.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": "ticket_sidebar",
+  "version": "1.0",
+  "frameworkVersion": "1.0",
+  "domainWhitelist": ["api.trustpilot.com"],
+	"parameters": [
+    {
+      "name": "tpuser",
+      "type": "text",
+      "required": true,
+      "default": "[TP_B2B_USER]"
+    },
+	{
+      "name": "tppass",
+      "type": "password",
+      "required": true,
+      "default": "[TP_B2B_PASSWORD]"
+    }]
+}
+
